@@ -1,0 +1,136 @@
+
+span{
+    margin: 20px;
+}
+#header{
+    text-align: center;
+    margin: auto;
+}
+
+#slider{
+    text-align: center;
+}
+
+#surfeur{
+    width: 100%;
+}
+#drapeaux{
+    text-align: center;
+}
+
+.logo_gris{
+    float: left;
+}
+.pays{
+    text-align: left;
+}
+.blue{
+    background-color: rgb(204, 255, 255);
+}
+.violet{
+    background-color: 	rgb(136, 170, 231);
+    padding: 1%;
+}
+#menu{
+    border: solid black 1px;
+}
+#main{
+    border: solid black 1px;
+}
+.main{
+    margin: 2% auto;
+}
+.head{
+    margin: 1% auto;
+}
+.center{
+    align-items: center;
+    display: flex;
+}
+#Titre_destinations{
+    border-bottom: grey solid 1px;
+    margin-bottom: 3%;
+}
+.drapeau{
+   border: gray solid 1px;
+    padding: 4px; 
+    width: 100%;
+}
+.foot{
+    border: black solid 1px;
+}
+.why_line{
+    border-bottom: gray solid 1px;
+    padding-bottom: 2%
+}
+#travel{
+    border-bottom: grey solid 1px;
+}
+button{
+    color: white;
+    background-color: rgb(29, 170, 29);
+    border-radius: 6px !important;
+    padding: 1%;
+}
+.link_footer{
+    margin-right: 2%;
+}
+
+@media (min-width: 992px){
+    #nav{
+   justify-content: center !important;
+   
+}
+}
+
+@media (max-width: 768px){
+    .navbar-expand-sm .navbar-nav{
+        flex-direction: column !important;
+    }
+     .nav-item{
+        border-top: grey solid 2px;
+        
+    } 
+    .navbar-nav{
+        width: 100%;
+    } 
+}
+@media (min-width: 576px ) and (max-width: 768px)
+{
+    .navbar-nav .dropdown-menu {
+        position: static !important;
+        float: none;
+    }
+}
+.navbar{
+    padding: 0 !important;
+}
+.nav-link{
+    color: black !important;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .image_phrase{
+        width: 40%;
+    }
+    .phrase{
+        width: 50%;
+        margin: auto;
+    }
+}
+.phrase{
+    margin: auto;
+}
+.pointeur{
+    position: relative;
+    display: inline-block;
+    height: 10px !important;
+    width: 10px !important; 
+    border-radius: 100%;
+    
+    
+    margin-top: 5px;
+    text-align: center;
+}
+.image_phrase{
+    margin-left: 10px;
+}
